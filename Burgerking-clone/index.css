@@ -1,0 +1,179 @@
+ *{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(248, 241, 231);
+}
+ol{
+    height: 55px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%; 
+}
+#nav-heading{
+    font-weight:bolder;
+    font-size:20px;
+    color: rgb(80, 35, 20)
+}
+#nav-heading,#menu-logo,.fa-solid,nav:hover{
+    cursor: pointer;
+}
+.navbar{
+    position:sticky;
+    top: 0%;
+    background-color:rgb(248, 241, 231) ;
+    border-bottom: 2px solid rgba(153, 153, 153,0.5);
+}
+#cart{
+    height:35px;
+    width:115px;
+    border-radius: 30px;
+    color: grey;
+    
+}
+#cart:hover{
+    cursor: no-drop;
+}
+.button1{
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: red;
+    color:black;
+
+    
+}
+.button2{
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+    background-color:rgb(248, 241, 231);
+    color:brown;
+    
+}
+.fa-cart-shopping{
+    background-color: red;
+}
+button:hover{
+    cursor: pointer;
+}
+.section{
+    display: flex;
+    height: 458px;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    gap:1.8%;
+}
+#img1{
+    height: 400px;
+    width: 750px;
+}
+h1{
+    font-size: 50px;
+    color: rgb(80, 35, 20)
+}
+#p1{
+    font-size: 12px;
+    color: rgb(80, 35, 20)
+}
+
+.main-card-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+    
+}
+.card-container1{
+    height: 500px;
+    width: 600px;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius:15px;
+}
+#peopleimg{
+    height: 300px;
+    width: 600px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card-container2{
+    height: 400px;
+    width: 500px;
+}
+#text{
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+#p2{
+    font-size: 15px;
+    background-color: white;
+
+}
+a,h3{
+    background-color: white;
+}
+#card-button{
+    display: flex;
+    justify-content: right;
+    background-color: white;
+}
+#b3{
+    height:35px;
+    width:115px;
+    border-radius: 30px;
+    color: brown;
+    border-color: brown;
+    background-color: white;
+}
+#download-section{
+    background-color:rgb(238, 232, 222);
+    height:500px ;
+    width: 100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#scan-img{
+    height: 400px;
+    width:400px;
+    background-color:rgb(238, 232, 222);
+
+}
+.r-1mwlp6a{
+    height: 150px;
+    width: 200px;
+    background-color:rgb(238, 232, 222);
+
+}
+#apps,#apps-heading,#p3{
+    width: 600px;
+    background-color:rgb(238, 232, 222);
+    color: rgb(80, 35, 20)
+
+}
+#foot{
+    height:10px;
+    background-color: rgb(80, 35, 20);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+ #a1{
+    background-color:rgb(80, 35, 20) ;
+    color: white;
+ }
+#footer-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20%;
+
+}
+#footer-nav-bar{
+    position: sticky;
+    bottom:0%;
+}
