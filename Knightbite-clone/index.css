@@ -1,0 +1,438 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar-container{
+    background-color:rgba(0, 0, 0, 0.1);
+    height: 108px;
+    display: flex;
+    justify-content: space-evenly;
+    gap:50%;
+    align-items: center;
+    position: fixed;   /* ✅ fixed instead of sticky */
+    top: 0;
+    left: 0;
+    width: 100%; 
+    
+}
+.logo{
+    margin-left:25px;
+    width: 150px;
+    height: 90px;
+    background: url('./Images/brand-logo.svg');
+    background-repeat: no-repeat;
+    background-size: 120px 90px;
+    cursor: pointer;
+
+}
+ol{
+    display: flex;
+    list-style: none;
+    justify-content:left;
+    gap:10%;
+    width:400px;
+    
+}
+li{
+    font-weight: bold;
+    font-size:18px;
+    font-family:cursive;
+}
+
+.dot{
+    display: flex;
+    height:6.4px;
+    width: 6.4px;
+    border-radius: 5px;
+    background-color: rgb(199, 123, 244) ;
+    justify-content: center; 
+    margin:5px auto;
+
+}
+a:link{
+    text-decoration: none;
+    
+}
+a:hover{
+    color: rgb(199, 123, 244);
+}
+a{
+    color: white;
+}
+.landingpage{
+    background-image:url('./Images/app-link-background.svg');
+    background-repeat: no-repeat;
+    background-size:100vw;
+    height:100vh;
+}
+.headingcontainer{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    top: 18%;
+    flex-direction:column;
+    gap:40px;
+    height: 550px;
+}
+h1{
+    font-size:75px;
+    color: white;
+    font-weight: bolder;
+    text-transform:uppercase;
+    /* border: 2px solid; */
+}
+
+.app-link{
+    height:100px;
+    width: 450px;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    /* margin:20px auto ; */
+
+}
+.ios:hover{
+    transform:scale(0.9);
+    /* animation-fill-mode: forwards;
+    transition: all 0.5s; */
+}
+.android:hover{
+    transform: scale(0.9);
+}
+.ios{
+    /* border:2px solid white; */
+    background:url('./Images/ios-store.svg');
+    background-size:200px 120px;
+    height:100px;
+    width:200px;
+    background-repeat:no-repeat;
+    transition:transform 0.5s ease; 
+
+}
+
+.android{
+    /* border:2px solid white; */
+    background:url('./Images/google-play-badge.svg');
+    background-size:200px 120px;
+    height:100px;
+    width:200px;
+    background-repeat:no-repeat;
+    transition:transform 0.5s ease;
+}
+
+/* Main page  */
+.featureheading{
+    display: flex;
+    justify-content: center;
+    height:240px;
+    align-items:center;
+}
+
+.heading{
+    font-family: cursive;
+    font-size:33px;
+    color: rgb(66, 66, 66); 
+    
+}
+.card-container{
+    /* border: 2px solid; */
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap:3%;
+    align-items:flex-start;
+    
+
+}
+img{
+    height: 192px;
+    transition:transform 0.5s ease ;
+}
+button{
+    cursor: pointer;
+}
+.follow-img:hover,.input2:hover{
+    transform: scale(1.1);
+}
+.card{
+    /* border: 2px solid; */
+    height:300px;
+    width: 220px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-description{
+    margin:35px auto;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(107, 103, 103);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.banner-1{
+    height:1000px;
+    width:1520px;
+    background-image: url('./Images/banner-1.webp');
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.h1{
+    font-size:90px;
+    text-align: center;
+}
+.banner-2{
+    height:1000px;
+    width:1520px;
+    background-image: url('./Images/banner-2.webp');
+    background-size:cover;
+    flex-direction: column;
+    justify-content:end;
+    gap: 38%;
+    align-items: center;
+    display: flex;
+    
+}  
+.banner-button{
+    border: 2px solid;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+}
+button{
+    height:55px;
+    width: 255px;
+    font-size:30px;
+    border-radius: 30px;
+    margin-top:-100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    border-color:white;
+}
+.connect-containter{
+    /* border: 2px solid; */
+    height:190px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+.details1{
+    /* border: 2px solid; */
+    height:300px; 
+    display: flex;
+    flex-direction:row; 
+    justify-content:space-evenly;
+}
+
+.detail-cards1{
+    /* border: 2px solid; */
+    height:300px;
+    width:350px;
+    display: flex;
+    flex-direction:column;
+    gap:8% ;
+
+}
+.detail-cards2{
+    /* border: 2px solid; */
+    height:300px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    gap:8% ;
+
+}
+
+.detail-cards3{
+    /* border: 2px solid; */
+    height:300px;
+    width:633px;
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    gap:8%;
+}
+.card-heading{
+    font-size: 35px;
+    font-family: cursive;
+    color: rgb(107, 103, 103);
+    /* border: 2px solid; */
+
+}
+.p1{
+    font-size:18px;
+    line-height:45px;
+    color: rgb(107, 103, 103);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.inputbox{
+    /* border: 2px solid; */
+    height:100px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+.input1{
+    height:75px;
+    width: 450px;
+    font-size: 25px;
+    padding-left:30px;
+    border-radius: 40px;
+}
+.input2{
+    height:78px;
+    width:78px;
+    /* border: 2px solid; */
+    margin-left:-9%;
+    transition:transform 0.5s ease ;
+}
+
+.card-image-container1{
+    display: flex;
+    flex-direction:row;
+    /* border: 2px solid; */
+    height:40px;
+    width:320px;
+    justify-content:space-between;
+    align-items: center;
+    font-family: cursive;
+
+
+}
+.card-img{
+    height:35px;
+    width: 35px;
+} 
+.card-image-container2{
+    display: flex;
+    flex-direction:row;
+    /* border: 2px solid; */
+    height:40px;
+    width:225px;
+    justify-content:space-between;
+    align-items: center;
+    font-family: cursive;
+    letter-spacing:1px;
+}
+.para{
+    font-size:15px !important;
+    margin:-30px 60px;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+ul>li{
+    font-size: 20px;
+    color: rgb(218, 57, 57);
+}
+.li3{
+    color:rgb(83, 80, 80);
+}
+.card-list{
+    /* border: 2px solid; */
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items:center;
+    margin-left:20px;
+
+}
+.li1{
+    margin-top:-30%;
+    color:rgb(51, 50, 50);
+}
+.follow-container{
+    display: flex;
+    justify-content:left;
+    gap:7%;
+    margin-left:-2%;
+}
+.follow-img{
+    height: 50px;
+    width: 50px;
+}
+.footerimages{
+    border: 2px soild;
+    height: 40px;
+
+}
+.details2{
+    /* border: 2px solid; */
+    height:150px; 
+    display: flex;
+    flex-direction:row; 
+    justify-content:center;
+    gap:7%;
+    margin-left:4%;
+}
+.detail-cards4{
+    /* border: 2px solid; */
+    height:200px;
+    width:350px;
+    display: flex;
+    flex-direction:column;
+    gap:8% ;
+
+}
+.detail-cards5{
+    /* border: 2px solid; */
+    height:250px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    gap:8% ;
+
+}
+
+.detail-cards6{
+    /* border: 2px solid; */
+    height:250px;
+    width:633px;
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    gap:8%;
+}
+.footer-container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2.7%;
+}
+.footer-img1{
+    height:50px;
+    width: 80px;
+}
+.footer-img2{
+    height: 45px;
+    width: 45px;
+}
+footer{
+    height: 50px;
+    border: 2px solid black;
+    color: white;
+    background:linear-gradient(to right,rgb(200, 122, 242),rgb(227, 104, 178),rgb(242, 95, 146));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
