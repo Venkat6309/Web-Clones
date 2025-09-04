@@ -1,7 +1,7 @@
 # 🍔 Burger King Clone Page
 
 This project is a **Burger King website clone** built using **HTML and
-CSS**.\
+CSS**.
 It replicates the look and feel of the official Burger King website with
 a responsive design and styled components.
 
@@ -20,18 +20,18 @@ a responsive design and styled components.
 
 ## 🛠️ Tech Stack
 
--   **HTML5**\
--   **CSS3**\
+-   **HTML5**
+-   **CSS3**
 -   **Font Awesome** (for icons)
 
 ------------------------------------------------------------------------
 
 ## 📂 Project Structure
 
-    BurgerKing-Clone/
+    BurgerKing-Clone
     │── index.html        # Main HTML file
     │── index.css         # Styling file
-    │── images/           # Folder containing images and icons
+    │── images            # Folder containing images and icons
     │── README.md         # Project documentation
 
 ------------------------------------------------------------------------
