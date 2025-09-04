@@ -58,17 +58,16 @@ redistribution or commercial use.
 
 ## 📸 Screenshots
 
-(Add your screenshots inside `Assests` and reference them here.)
 
-    ![](./Assests/Screenshot%202025-09-04%20164157.png) 
+![](./Assests/Screenshot%202025-09-04%20164157.png) 
 
-    ![](./Assests/Screenshot%202025-09-04%20164210.png) 
+![](./Assests/Screenshot%202025-09-04%20164210.png) 
 
-    ![](./Assests/Screenshot%202025-09-04%20164236.png)
+![](./Assests/Screenshot%202025-09-04%20164236.png)
 
-    ![](./Assests/Screenshot%202025-09-04%20164246.png) 
+![](./Assests/Screenshot%202025-09-04%20164246.png) 
     
-    ![](./Assests/Screenshot%202025-09-04%20164253.png)
+![](./Assests/Screenshot%202025-09-04%20164253.png)
 
 ------------------------------------------------------------------------
 
@@ -82,7 +81,7 @@ redistribution or commercial use.
 
 ## 👨‍💻 Author
 
--   **YEMINENI NAGAVENKAT**\
+-   **YEMINENI NAGAVENKAT**
 -    GitHub: [Venkat6309](https://github.com/Venkat6309)
 -   LinkedIn: [YEMINENI NAGAVENKAT](https://in.linkedin.com/in/yemineni-nagavenkat-940ab1235)
 
