@@ -71,11 +71,11 @@ a responsive design and styled components.
 
 ## 👨‍💻 Author
 
--   **Your Name**\
--   GitHub: [Venkat6309](https://github.com/Venkat6309)\
+-   **YEMINENI NAGAVENKAT**
+-   GitHub: [Venkat6309](https://github.com/Venkat6309)
 -   LinkedIn: [YEMINENI NAGAVENKAT](https://in.linkedin.com/in/yemineni-nagavenkat-940ab1235)
 
 ------------------------------------------------------------------------
 
-⚠️ **Disclaimer**: This project is made for educational purposes only.\
+⚠️ **Disclaimer**: This project is made for educational purposes only.
 All trademarks and logos belong to **Burger King®**.

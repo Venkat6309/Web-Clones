@@ -1,7 +1,7 @@
 # 🌐 Clone Website Project
 
 This project is a **practice clone website** built using **HTML and
-CSS**.\
+CSS**
 It is made **only for learning purposes** and does not intend to copy,
 redistribute, or commercially use any brand, logo, or trademark.
 
@@ -9,26 +9,26 @@ redistribute, or commercially use any brand, logo, or trademark.
 
 ## 🚀 Features
 
--   Sticky navigation bar.\
--   Hero section with heading, paragraph, and input field.\
--   Footer with useful links and styled containers.\
+-   Sticky navigation bar.
+-   Hero section with heading, paragraph, and input field.
+-   Footer with useful links and styled containers.
 -   Simple, clean, and beginner-friendly HTML + CSS code.
 
 ------------------------------------------------------------------------
 
 ## 🛠️ Tech Stack
 
--   **HTML5**\
+-   **HTML5**
 -   **CSS3**
 
 ------------------------------------------------------------------------
 
 ## 📂 Project Structure
 
-    Clone-Website/
+    Clone-Website
     │── index.html        # Main HTML file
     │── cdnjs.css         # Styling file
-    │── images/           # (Optional) Folder for images
+    │── images           # (Optional) Folder for images
     │── README.md         # Project documentation
 
 ------------------------------------------------------------------------
@@ -67,8 +67,8 @@ redistribute, or commercially use any brand, logo, or trademark.
 ------------------------------------------------------------------------
 ## 👨‍💻 Author
 
--   **Your Name**\
--   GitHub: [Venkat6309](https://github.com/Venkat6309)\
+-   **YEMINENI NAGAVENKAT**
+-   GitHub: [Venkat6309](https://github.com/Venkat6309)
 -   LinkedIn: [YEMINENI NAGAVENKAT](https://in.linkedin.com/in/yemineni-nagavenkat-940ab1235)
 
 ------------------------------------------------------------------------
@@ -76,10 +76,10 @@ redistribute, or commercially use any brand, logo, or trademark.
 ## ⚖️ Legal Disclaimer
 
 This repository is created **only for practice and educational
-purposes**.\
+purposes**.
 - All rights, trademarks, and logos mentioned (if any) belong to their
-respective owners.\
+respective owners.
 - This project is **not affiliated, associated, authorized, endorsed by,
-or in any way officially connected** with any real company or brand.\
+or in any way officially connected** with any real company or brand.
 - Please use this code **only as a reference for learning web
 development**.
